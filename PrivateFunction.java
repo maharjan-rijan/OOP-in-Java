@@ -12,4 +12,14 @@ public class PrivateFunction {
     public int getPrice(){
         return price; 
     }
+    public void setPrice(int price){
+        this.price = price;
+    }
+    public static void main(String[] args) {
+        PrivateFunction car = new PrivateFunction();
+        car.color = "Red";
+        car.setPrice(120080000);
+        System.out.println("Color = " +car.getColor());
+        System.out.println("Price = "+car.getPrice());
+    }
 }
