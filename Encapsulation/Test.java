@@ -13,4 +13,7 @@ public class Test {
     public void setAge(int newAge){
         age = newAge;
     }
+    public void setName(String newName){
+        name = newName;
+    }
 }
