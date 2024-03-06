@@ -12,6 +12,5 @@ public class array {
         finally{
             System.out.println("Program Complete");
         }
-    }
-    
+    }   
 }
