@@ -3,7 +3,7 @@ package Expection;
 import java.io.*;
 public class InputStream {
     public static void main(String[] args) throws Exception {
-        InputStream input = null;
+        FileInputStream input = null;
         try{
             input = new FileInputStream("sample.txt");
 
