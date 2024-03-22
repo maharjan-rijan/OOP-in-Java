@@ -11,13 +11,26 @@ public class sorting {
         hm.put(02, "Syam");
         hm.put(03, "Hari");
 
-        TreeMap<Integer, String> tm = new TreeMap<Integer,String>(hm);
+        System.out.println("Ascending Order:");
+        sortByKeyAscending(hm);
+        System.out.println();
 
-        Set<Integer> keys = tm.keySet();
-        Iterator<Integer> itr = keys.iterator();
-        while (itr.hasNext()) { 
-            Integer i = itr.next(); 
-            System.out.println(i + " " + tm.get(i)); 
-        } 
+        System.out.println("Descending Order:");
+        sortByKeyDescending(hm);
+        System.out.println();
     }
+    public static void sortByKeyAscending(Hashtable<Integer, String> hm){
+        List<Map.Entry<Integer, String>> list = new LinkedList<>(hm.entrySet());
+        Collections.sort(list, Comparator.comparing(Map.Entry::getKey));
+        for(Map.Entry<Integer, String> entry :list){
+            System.out.println(entry.getKey() + " " + entry.getValue());
+        }
+    }
+    public static void sortByKeyDescending(Hashtable<Integer, String> hm) {
+        List<Map.Entry<Integer, String>> list = new LinkedList<>(hm.entrySet());
+        Collections.sort(list, (o1, o2) -> o2.getKey().compareTo(o1.getKey()));
+        for (Map.Entry<Integer, String> entry : list) {
+            System.out.println(entry.getKey() + " : " + entry.getValue());
+        }
+}
 }

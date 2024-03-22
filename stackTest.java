@@ -8,8 +8,13 @@ public class stackTest {
         st.push("Banana");
         st.push("Orange");
 
-        String e = st.peek();
-        System.out.println(e);
-        System.out.println(st);
+        System.out.println("Items in the Stack:");
+        displayStackItems(st);
+    }
+
+    public static void displayStackItems(Stack<String> st) {
+        for (String item : st) {
+            System.out.println(item);
+        }
     }
 }
