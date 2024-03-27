@@ -7,6 +7,7 @@ public class stackTest {
         st.push("Apple");
         st.push("Banana");
         st.push("Orange");
+        st.push("PineApple");
 
         System.out.println("Items in the Stack:");
         displayStackItems(st);
