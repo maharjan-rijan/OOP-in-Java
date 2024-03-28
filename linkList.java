@@ -8,7 +8,7 @@ public class linkList {
         st.add("Rojan");
         Iterator<String> itr = st.iterator();
         while (itr.hasNext()) {
-            System.out.println(itr.hasNext());
+            System.out.println(itr.next());
         }
         }
 }
