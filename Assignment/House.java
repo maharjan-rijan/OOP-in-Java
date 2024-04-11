@@ -24,7 +24,7 @@ public class House {
     public static void main(String[] args) {
         House house = new House();
         house.setColor("Red");
-        house.setPrice(780000000);
+        house.setPrice(78000000);
         System.out.println("Color = "+house.getColor());
         System.out.println("Price = "+house.getPrice());
 
