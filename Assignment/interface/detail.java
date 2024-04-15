@@ -1,6 +1,6 @@
 package Assignment.Interface;
 
-class Data implements Government, LocalLevel {
+public class detail implements Government, LocalLevel {
     public void govt()
     {
         System.out.println("Government of Nepal");
@@ -11,9 +11,8 @@ class Data implements Government, LocalLevel {
         System.out.println("Government of Nepal");
     }
     public static void main(String[] args) {
-        Data obj = new Data();
+        detail obj = new detail();
         obj.govt();
         obj.local();
-    }
-    
+    } 
 }
