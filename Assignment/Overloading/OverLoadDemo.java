@@ -1,7 +1,7 @@
 package Assignment.Overloading;
 //Write a Jave Program to illustrate overloading
 // Assignment 2.3
-public class DisplayTest {
+public class OverLoadDemo {
     public void disp(char c)
     {
         System.out.println(c);
