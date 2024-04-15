@@ -1,4 +1,4 @@
-package Assignment.Inheritance;
+package Assignment.Interface;
 
 public class province extends capital {
     void local(){

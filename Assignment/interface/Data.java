@@ -1,4 +1,4 @@
-package Assignment.interface;
+package Assignment.Interface;
 
 class Data implements Government, LocalLevel {
     public void govt()

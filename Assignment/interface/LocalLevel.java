@@ -1,4 +1,4 @@
-package Assignment.Inheritance;
+package Assignment.Interface;
 
 interface LocalLevel {
     void show();

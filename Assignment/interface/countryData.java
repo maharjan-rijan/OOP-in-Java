@@ -1,4 +1,4 @@
-package Assignment.Inheritance;
+package Assignment.Interface;
 
 public class countryData {
     public static void main(String[] args) {
