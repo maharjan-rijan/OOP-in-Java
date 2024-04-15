@@ -10,11 +10,11 @@ public class TestEmployee {
         if (choice == 1){
             FullTime ft = new FullTime();
             int sal = ft.calculateSalary();
-           System.out.println(sal);
+           System.out.println("Your Salary is: "+sal);
         } else {
             PartTime ft = new PartTime();
             int sal = ft.calculateSalary();
-           System.out.println(sal);
+           System.out.println("Your Salary is: "+sal);
         }
        
     }
