@@ -6,12 +6,12 @@ public class calculator {
     public static void main(String[] args) {
         float Result;
         Scanner sc = new Scanner(System.in);
-        System.out.println("Chose any Operation :");
-        String sys = sc.nextLine();
         System.out.println("Enter first number : ");
         Integer num1 = sc.nextInt();
-        System.out.println("Enter first number : ");
+        System.out.println("Enter second number : ");
         Integer num2 = sc.nextInt();
+        System.out.println("Chose any Operation :");
+        String sys = sc.next();
         switch (sys) {
             case "+":
                 Result = num1 + num2;
